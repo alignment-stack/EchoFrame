@@ -22,3 +22,15 @@ github: https://github.com/alignment-stack
 Developer: Tyler Williams |
 Published: July 22, 2025
 
+
+<img width="1676" height="1012" alt="EcoFrame" src="https://github.com/user-attachments/assets/9de83630-5180-4ec3-b461-b2ac50728c83" />
+
+
+
+
+
+
+
+
+
+
