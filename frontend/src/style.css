@@ -24,6 +24,12 @@ h1 {
   margin-bottom: 0.1em;
   color: #00ffe0;
 }
+h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #00ffe0;
+}
 
 .subtitle {
   display: block;
@@ -32,6 +38,14 @@ h1 {
   font-size: 1em;
   color: #ffffff;
   margin-bottom: 1.5em;
+}
+
+
+/* Match textarea width to chat-window */
+.prompt-input-window {
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
 }
 
 textarea {
@@ -44,6 +58,7 @@ textarea {
   font-size: 1rem;
   resize: vertical;
   margin-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 select, button {

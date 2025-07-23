@@ -15,6 +15,7 @@ function App() {
       <PromptInput setResponse={setResponse} setStats={setStats} />
       <TokenStats stats={stats} />
       <ChatWindow response={response} />
+      <h2> by Alignment Stack</h2>
     </>
   );
 }

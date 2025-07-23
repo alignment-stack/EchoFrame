@@ -3,7 +3,7 @@ export default function ChatWindow ( { messages }) {
     <div className="chat-window">
       {messages.map((message, index) => (
         <div key={index} className={`message ${message.role}`}>
-          <strong>{message.role === "user" ? "You" : "Assistant"}:</strong>
+          <strong>{message.role === "user" ? "You" : "Model"}:</strong>
           <p>{message.content}</p>
         </div>
       ))}

@@ -74,13 +74,31 @@ export default function PromptInput({ setResponse, setStats }) {
 
   return (
     <div style={{ marginBottom: "1em", textAlign: "center" }}>
+      <textarea
+        placeholder="Type your prompt and hit Enter..."
+        value={prompt}
+        onChange={(e) => setPrompt(e.target.value)}
+        onKeyDown={handleKeyDown}
+        rows={3}
+        style={{
+          width: "100%",
+          padding: "1em",
+          fontSize: "1em",
+          backgroundColor: "#1e1e1e",
+          color: "#fff",
+          border: "1px solid #333",
+          borderRadius: "6px",
+          resize: "none",
+        }}
+      />
+
       <select
         value={model}
         onChange={(e) => setModel(e.target.value)}
         style={{
           padding: "0.5em",
           fontSize: "1em",
-          marginBottom: "1em",
+          marginTop: "1em",
           borderRadius: "4px",
           border: "1px solid #ccc",
           backgroundColor: "#1e1e1e",
@@ -91,24 +109,6 @@ export default function PromptInput({ setResponse, setStats }) {
         <option value="mistral">Mistral</option>
         <option value="gemma">Gemma</option>
       </select>
-
-      <textarea
-        placeholder="Type your prompt and hit Enter..."
-        value={prompt}
-        onChange={(e) => setPrompt(e.target.value)}
-        onKeyDown={handleKeyDown}
-        rows={3}
-        style={{
-          width: "80%",
-          padding: "1em",
-          fontSize: "1em",
-          backgroundColor: "#1e1e1e",
-          color: "#fff",
-          border: "1px solid #333",
-          borderRadius: "6px",
-          resize: "none",
-        }}
-      />
     </div>
   );
 }
