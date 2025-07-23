@@ -1,5 +1,5 @@
 {
-  "name": "echoframe",
+  "name": "ecoframe",
   "private": true,
   "version": "0.1.0",
   "description": "Local AI chat terminal powered by LLMs",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "dotenv": "^17.2.0",
-    "react": "^19.1.0",
+     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
